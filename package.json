@@ -1,0 +1,42 @@
+{
+  "name": "ng-bootstrap-nested-select",
+  "version": "1.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sscots/ng-bootstrap-nested-select"
+  },
+  "author": {
+    "name": "Scot Schroeder",
+    "email": "scotschroeder@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sscots/ng-bootstrap-nested-select/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0",
+    "@angular/forms": "^8.2.0"
+  },
+  "dependencies": {
+    "@ng-bootstrap/ng-bootstrap": "5.2.0",
+    "string-similarity": "3.0.0",
+    "tslib": "^1.9.0"
+  },
+  "main": "bundles/ng-bootstrap-nested-select.umd.js",
+  "module": "fesm5/ng-bootstrap-nested-select.js",
+  "es2015": "fesm2015/ng-bootstrap-nested-select.js",
+  "esm5": "esm5/ng-bootstrap-nested-select.js",
+  "esm2015": "esm2015/ng-bootstrap-nested-select.js",
+  "fesm5": "fesm5/ng-bootstrap-nested-select.js",
+  "fesm2015": "fesm2015/ng-bootstrap-nested-select.js",
+  "typings": "ng-bootstrap-nested-select.d.ts",
+  "metadata": "ng-bootstrap-nested-select.metadata.json",
+  "sideEffects": false
+}
